@@ -18,6 +18,7 @@
             android:id="@+id/loginImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="16dp"
             android:src="@drawable/img" />
@@ -79,6 +80,19 @@
                 android:layout_marginLeft="8dp"
                 android:text="Remember me"
                 android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/forgotPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="60dp"
+                android:text="Forgot password?"
+                android:textColor="#6A5ACD"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+
 
         </LinearLayout>
 
