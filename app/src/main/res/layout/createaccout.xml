@@ -40,37 +40,44 @@
             android:text="by creating a free account."
             android:textSize="16sp" />
 
-        <ImageView
-            android:id="@+id/FullName"
+        <EditText
+            android:id="@+id/FullNameText"
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="5dp"
-            android:src="@drawable/img_4" />
+            android:hint="Full Name"
+            android:padding="16dp"
+            android:background="#D3D3D3"/>
 
-        <ImageView
-            android:id="@+id/ValidEmail"
+        <EditText
+            android:id="@+id/ValidEmailText"
             android:layout_width="300dp"
             android:layout_height="50dp"
+            android:layout_marginTop="12dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="14dp"
-            android:src="@drawable/img_5" />
+            android:hint="Valid Email"
+            android:padding="16dp"
+            android:background="#D3D3D3"/>
 
-        <ImageView
-            android:id="@+id/PhoneNum"
+        <EditText
+            android:id="@+id/phoneNumberText"
             android:layout_width="300dp"
             android:layout_height="50dp"
+            android:layout_marginTop="12dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="14dp"
-            android:src="@drawable/img_6" />
+            android:hint="Phone Number"
+            android:padding="16dp"
+            android:background="#D3D3D3"/>
 
-        <ImageView
-            android:id="@+id/StrongPass"
+        <EditText
+            android:id="@+id/StrongPassText"
             android:layout_width="300dp"
             android:layout_height="50dp"
+            android:layout_marginTop="12dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="14dp"
-            android:src="@drawable/img_7" />
+            android:hint="Strong Password"
+            android:padding="16dp"
+            android:background="#D3D3D3"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -93,6 +100,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="8dp"
                 android:text="By checking the box you agree to our Terms and Conditions."
+                android:textColor="@color/black"
                 android:textSize="9sp" />
         </LinearLayout>
 
@@ -101,7 +109,7 @@
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:layout_marginTop="120dp"
+            android:layout_marginTop="110dp"
             android:layout_marginBottom="8dp"
             android:backgroundTint="#6A5ACD"
             android:text="Next"
