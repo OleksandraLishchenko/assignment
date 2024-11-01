@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
     <?xml version="1.0" encoding="utf-8"?>
 
@@ -40,40 +41,113 @@
             android:text="by creating a free account."
             android:textSize="16sp" />
 
-        <EditText
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailInput"
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_gravity="center_horizontal"
-            android:hint="Full Name"
-            android:padding="16dp"
-            android:background="#D3D3D3"/>
+            android:hint="Full name"
+            android:layout_marginTop="17dp"
+            app:endIconMode="custom"
+            app:endIconDrawable="@drawable/user">
 
-        <EditText
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="12dp"
-            android:layout_gravity="center_horizontal"
-            android:hint="Valid Email"
-            android:padding="16dp"
-            android:background="#D3D3D3"/>
 
-        <EditText
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="12dp"
-            android:layout_gravity="center_horizontal"
-            android:hint="Phone Number"
-            android:padding="16dp"
-            android:background="#D3D3D3"/>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
 
-        <EditText
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+<!--        <EditText-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:hint="Full Name"-->
+<!--            android:padding="16dp"-->
+<!--            android:background="#D3D3D3"/>-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailInput"
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:layout_marginTop="12dp"
             android:layout_gravity="center_horizontal"
-            android:hint="Strong Password"
-            android:padding="16dp"
-            android:background="#D3D3D3"/>
+            android:hint="Valid email"
+            android:layout_marginTop="15dp"
+            app:endIconMode="custom"
+            app:endIconDrawable="@drawable/mail">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+<!--        <EditText-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:hint="Valid Email"-->
+<!--            android:padding="16dp"-->
+<!--            android:background="#D3D3D3"/>-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailInput"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:hint="Phone number"
+            android:layout_marginTop="15dp"
+            app:endIconMode="custom"
+            app:endIconDrawable="@drawable/smartphone">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--        <EditText-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:hint="Phone Number"-->
+<!--            android:padding="16dp"-->
+<!--            android:background="#D3D3D3"/>-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailInput"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:hint="Strong password"
+            android:layout_marginTop="15dp"
+            app:endIconMode="custom"
+            app:endIconDrawable="@drawable/lock">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--        <EditText-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:hint="Strong Password"-->
+<!--            android:padding="16dp"-->
+<!--            android:background="#D3D3D3"/>-->
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -104,7 +178,7 @@
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:layout_marginTop="110dp"
+            android:layout_marginTop="100dp"
             android:layout_marginBottom="8dp"
             android:backgroundTint="#6A5ACD"
             android:text="Next"
